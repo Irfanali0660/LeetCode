@@ -10,7 +10,7 @@ var thousandSeparator = function(n) {
             result = '.' + result;
         }
     }
-    return result;
+    return result
 };
 
 console.log(thousandSeparator(292920));
