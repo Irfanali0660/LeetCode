@@ -13,4 +13,8 @@ var thousandSeparator = function(n) {
     return result;
 };
 
-console.log(thousandSeparator(292920));
+// console.log(thousandSeparator(292920));
+
+
+
+
