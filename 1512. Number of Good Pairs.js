@@ -7,7 +7,7 @@ var numIdenticalPairs = function(nums) {
         }
         }
     }  
-    return array.length
+    return array.length;
 };
 
 
