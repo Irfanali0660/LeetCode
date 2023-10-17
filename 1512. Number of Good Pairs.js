@@ -11,4 +11,19 @@ var numIdenticalPairs = function(nums) {
 };
 
 
-console.log(numIdenticalPairs([1,1,1,1]));
+// console.log(numIdenticalPairs([1,1,1,1]));
+
+
+let array=[[1,2,3],[2,1,4],[3,5,4],[5,4,3]]
+let newarray=[]
+for (const subarray of array) {
+    for (let i = 0; i < subarray.length; i++) {
+       if(newarray[i]){
+        newarray[i]+=subarray[i]
+       }else{
+        newarray[i]=subarray[i]
+       }
+    }
+}
+
+console.log(newarray);
