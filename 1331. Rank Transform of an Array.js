@@ -11,7 +11,7 @@ var arrayRankTransform = function(arr) {
         }
     });
 
-    return arr.map((num) => rankMap.get(num))
+    return arr.map((num) => rankMap.get(num));
 };
 
 console.log(arrayRankTransform([40,10,20,30]));
